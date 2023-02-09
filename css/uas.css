@@ -51,8 +51,8 @@ header ul li a:active{
 .content .imgBox img
 {max-width: 500px;}
 
-.modal-window{
-  position: fixed;
+.modal-window{position: fixed; width: 100%; min-height: 100vh; display: flex; 
+  align-items: center;
   background-color: #ffd4c2;
   top: 0;
   left: 0;
@@ -72,13 +72,12 @@ header ul li a:active{
 }
 
 .modal-window>div{
-  width: 900px;
-  position: relative;
-  display:flex;
-  top: 150px;
-  left: 40px;
+  max-width: 900px;
   padding: 2em;
+  left: 250px;
   background: white;
+  display: flex;
+  position: relative;
 }
 
 .modal-window header{
