@@ -61,17 +61,18 @@ a{
 
 /*modal1*/
 .modal-window1{
-    position: fixed;
-    background-color: #ff1aa7;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s;
+    position: fixed; width: 100%; min-height: 100vh; display: flex; 
+  align-items: center;
+  background-color: #f11aa7;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
     text-align: justify;
 }
   
@@ -82,13 +83,12 @@ a{
 }
   
 .modal-window1>div{
-    width: 650px;
-    position: absolute;
-    display: flex;
-    top: 150px;
-    left: 40px;
-    padding: 2em;
-    background: white;
+    max-width: 900px;
+  padding: 2em;
+  left: 250px;
+  background: white;
+  display: flex;
+  position: relative;
 }
   
 .modal-window1 header{
@@ -97,7 +97,7 @@ a{
   
 .modal-close1{
     color: #aaa;
-    line-height: 50px;
+    line-height: 0px;
     font-size: 80%;
     position: absolute;
     right: 0;
@@ -121,17 +121,18 @@ a{
 
 /*modal2*/
 .modal-window2{
-    position: fixed;
-    background-color: #ffb200;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s;
+    position: fixed; width: 100%; min-height: 100vh; display: flex; 
+  align-items: center;
+  background-color: #fbb200;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
     text-align: justify;
 }
   
@@ -142,13 +143,12 @@ a{
 }
   
 .modal-window2>div{
-    width: 650px;
-    position: absolute;
-    display: flex;
-    top: 150px;
-    left: 40px;
+    max-width: 900px;
     padding: 2em;
+    left: 250px;
     background: white;
+    display: flex;
+    position: relative;
 }
   
 .modal-window2 header{
@@ -181,7 +181,8 @@ a{
 
 /*modal3*/
 .modal-window3{
-    position: fixed;
+    position: fixed; width: 100%; min-height: 100vh; display: flex; 
+    align-items: center;
     background-color: #007aff;
     top: 0;
     left: 0;
@@ -202,13 +203,12 @@ a{
 }
   
 .modal-window3>div{
-    width: 650px;
-    position: absolute;
-    display: flex;
-    top: 150px;
-    left: 40px;
+    max-width: 900px;
     padding: 2em;
+    left: 250px;
     background: white;
+    display: flex;
+    position: relative;
 }
   
 .modal-window3 header{
@@ -241,7 +241,8 @@ a{
 
 /*modal4*/
 .modal-window4{
-    position: fixed;
+    position: fixed; width: 100%; min-height: 100vh; display: flex; 
+    align-items: center;
     background-color: #2eee00;
     top: 0;
     left: 0;
@@ -262,13 +263,12 @@ a{
 }
   
 .modal-window4>div{
-    width: 650px;
-    position: absolute;
-    display: flex;
-    top: 150px;
-    left: 40px;
+    max-width: 900px;
     padding: 2em;
+    left: 250px;
     background: white;
+    display: flex;
+    position: relative;
 }
   
 .modal-window4 header{
@@ -301,7 +301,8 @@ a{
 
 /*modal5*/
 .modal-window5{
-    position: fixed;
+    position: fixed; width: 100%; min-height: 100vh; display: flex; 
+    align-items: center;
     background-color: #bb00ff;
     top: 0;
     left: 0;
@@ -322,13 +323,12 @@ a{
 }
   
 .modal-window5>div{
-    width: 650px;
-    position: absolute;
-    display: flex;
-    top: 150px;
-    left: 40px;
-    padding: 2em;
-    background: white;
+    max-width: 900px;
+  padding: 2em;
+  left: 250px;
+  background: white;
+  display: flex;
+  position: relative;
 }
   
 .modal-window5 header{
